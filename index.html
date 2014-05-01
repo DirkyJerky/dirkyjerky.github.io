@@ -1,17 +1,24 @@
 <html>
   <head>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+    <link rel="stylesheet" href="http://www.cssstickyfooter.com/style.css"></link>
     <script>
-      $("button#sniperSpy").click(function() {
-        alert('No!');
+      $(document).ready(function() {
+        $("button#sniperSpy").click(function() {
+          alert('No!');
+        });
       });
     </script>
   </head>
   <body>
-    <button id="sniperSpy">Im a spy!</button>
     <br />
-    <footer>
-      <a href="http://www.youtube.com/watch?v=OyTyXGcVJHc#t=150">My own "Hello World!" statement.</a>
-    </footer>
+    <div id="wrap">
+	    <div id="main">
+        <button id="sniperSpy" >Im a spy!</button>
+      </div>
+    </div>
+    <div id="footer">
+      <a href="http://www.youtube.com/watch?v=OyTyXGcVJHc#t=150">My own Hello World statement.</a>
+    </div>
   </body>
 </html>
